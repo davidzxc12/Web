@@ -1,3 +1,20 @@
+html{color:#000;background:#222222;}body,div,ul,ol,li,h1,h2,h3,h4,h5,input,p,{margin:0;padding:0;}strong{font-style:normal;font-weight:normal;}li{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}input{font-family:inherit;font-size:inherit;font-weight:inherit;}
+body {font:13px/1.231 arial,helvetica,clean,sans-serif;}
+/* CSS RESET */
 .bg{
 	background: url(http://davidzxc12.github.io/Web/images/bg.jpg) no-repeat 5px; width:1028px; margin:0px auto;
+}
+body{
+	text-align: center;
+	color: #000;
+}
+.wrap {
+	width:710px;
+	text-align:left;
+	margin:35px auto;
+	background:#fff
+}
+header{
+	margin:10px auto; margin-bottom:35px;
+	position:relative;height:60px; background:url(http://davidzxc12.github.io/Web/images/hd.gif) repeat-x bottom; width:690px;
 }

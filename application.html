@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="http://davidzxc12.github.io/Web/stylesheets/application.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/application.css">
 		<meta charset="UTF-8">
 		<title>申請加入課程</title>
 	</head>
-	<header id="header">
-		<h1>申請加入課程</h1>
-		<nav>
-			<input type="button" value="回到課程大綱" onclick="location.href='http://davidzxc12.github.io/Web/course.html'">
-		</nav>
-	</header>
+	
 	<body>
 		<div class="bg">
-			<section>
-				<br><br><br><br>
-				<h1 class="tittle">Web程式設計</h1>
-				<h2 >Web Programming</h2>
-				<h5><strong><em>欲修習此門課需先填寫以下資料</em></strong><br><br></h5>
-				<ul class="list">
-					<li class="question"><label for="name">姓名:<br></label>
-					<input type="text" id="name" required placeholder="Enter Your Name" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
-					<li class="question"><label for="stuid">學號:<br></label>
-					<input type="tel" id="stuid" required placeholder="Enter Your Student ID" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
-					<li class="question"><label for="department">科系:<br></label>
-					<input type="text" id="department" required placeholder="Enter Your Department" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br>
-					<li class="question"><label for="sex">性別:<br></label>
-					<input type="radio" name="sex" value="male" id="male">
-					<label for="male">男</label>
-					<input type="radio" name="sex" value="female" id="female">
-					<label for="female">女</label></li><br>
-					<li class="question"><label for="date">生日:<br></label>
-					<input type="date" id="date" required placeholder="Enter Your Birth" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"><br><br><br>
-					<li class="question"><label for="addr">地址:<br></label>
-					<input type="text" id="addr" required placeholder="Enter Your Address" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
-					<li class="question"><label for="phone">連絡電話:<br></label>
-					<input type="tel" id="phone" required placeholder="Enter Your Phone Number" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
-					<li class="question"><label for="email">信箱:<br></label>
-					<input type="email" id="email" required placeholder="Enter Your E-mail" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
-				</ul>
-			</section>
-			<footer>
-				<p>
-					<input type="submit" value="確認送出">
-					<input type="reset" value="清除重填" >
-				</p>
-			</footer>
+			<div class="wrap">
+				<header id="header">
+					<h1>申請加入課程</h1>
+					<nav>
+						<input type="button" value="回到課程大綱" onclick="location.href='http://davidzxc12.github.io/Web/course.html'">
+					</nav>
+				</header>
+				<section>
+					<br><br><br><br>
+					<h1 class="tittle">Web程式設計</h1>
+					<h2 >Web Programming</h2>
+					<h5><strong><em>欲修習此門課需先填寫以下資料</em></strong><br><br></h5>
+					<ul class="list">
+						<li class="question"><label for="name">姓名:<br></label>
+						<input type="text" id="name" required placeholder="Enter Your Name" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
+						<li class="question"><label for="stuid">學號:<br></label>
+						<input type="tel" id="stuid" required placeholder="Enter Your Student ID" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
+						<li class="question"><label for="department">科系:<br></label>
+						<input type="text" id="department" required placeholder="Enter Your Department" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br>
+						<li class="question"><label for="sex">性別:<br></label>
+						<input type="radio" name="sex" value="male" id="male">
+						<label for="male">男</label>
+						<input type="radio" name="sex" value="female" id="female">
+						<label for="female">女</label></li><br>
+						<li class="question"><label for="date">生日:<br></label>
+						<input type="date" id="date" required placeholder="Enter Your Birth" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"><br><br><br>
+						<li class="question"><label for="addr">地址:<br></label>
+						<input type="text" id="addr" required placeholder="Enter Your Address" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
+						<li class="question"><label for="phone">連絡電話:<br></label>
+						<input type="tel" id="phone" required placeholder="Enter Your Phone Number" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
+						<li class="question"><label for="email">信箱:<br></label>
+						<input type="email" id="email" required placeholder="Enter Your E-mail" style="width: 300px; height: 40px; border-width:9px; border-style:double;font-size:20px;"></li><br><br><br>
+					</ul>
+				</section>
+				<footer>
+					<p>
+						<input type="submit" value="確認送出">
+						<input type="reset" value="清除重填" >
+					</p>
+				</footer>
+			</div>
 		</div>
 	</body>
 </html>
