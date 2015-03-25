@@ -1,12 +1,12 @@
 body{
-	background: url(http://davidzxc12.github.io/Web/image/bg-body.jpg) repeat;
+	background: url(http://davidzxc12.github.io/Web/images/bg-body.jpg) repeat;
 	font-size: 14px;
 	margin: 0;
 	min-width: 940px;
 	padding: 0;
 }
 header{
-	background: url(http://davidzxc12.github.io/Web/image/WEB_DESIGN.jpg);
+	background: url(http://davidzxc12.github.io/Web/images/WEB_DESIGN.jpg);
 	display: block;
 	width: 100%;
 	margin:0  auto;
