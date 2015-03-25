@@ -14,7 +14,7 @@ header{
 	height:150px;
 }
 .page{
-	font-family: Comic Sans MS, Monaco, Microsoft YaHei, "標楷體", sans-serif;
+	font-family: Comic Sans MS, Monaco, DFKai-sb,Microsoft YaHei, "標楷體", sans-serif;
 	border-radius: 30px;
 	background:#356618;
 	margin: 0 auto;
@@ -125,7 +125,7 @@ ol.schedule > li:before {
     counter-increment: li-counter;
 }
  .word,p{
- 	font-family: Comic Sans MS, Monaco, Microsoft YaHei, "標楷體", sans-serif;
+ 	font-family: Comic Sans MS, Monaco, DFKai-sb,Microsoft YaHei, "標楷體", sans-serif;
  	color:rgb(0,96,69);
  	font-size: 20px;
  }
