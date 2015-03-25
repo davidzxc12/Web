@@ -83,3 +83,6 @@ h5{
 	text-decoration:blink;
 	color: rgba(255,134,3,1);
 }
+.question{
+	font-size:20px;   padding:8px 0 20px 5px; background:url(images/t.gif) repeat-x; color:#bf8b38
+}
