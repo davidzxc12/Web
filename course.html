@@ -3,25 +3,59 @@
 <html lang="en">
 	<head>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="./stylesheets/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href="./stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="http://davidzxc12.github.io/Web/stylesheets/course.css">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/course.css">
 		<meta charset="UTF-8">
 		<title>課程詳細資料</title>
 	</head>
 	<body>
 		<div class="page">
-		<div id="content">
+		<div id="content" class="container-fluid">
 		<header>
 			<nav>
-				<input class="btn" type="button" value="申請加入課程" onclick="location.href='http://davidzxc12.github.io/Web/application.html'">
+				<input class="btns visible-desktop" type="button" value="申請加入課程" onclick="location.href='http://davidzxc12.github.io/Web/application.html'">
 				
 			</nav>
 			</header><!-- /header -->
 			<section>
 			<div class="tittle">
 			<h1>Web Programming</h1>
-			<h1>課程介紹</h1></div>
+			<h1>課程介紹</h1>			
+			</div>
+			<div id="data">
 				<article>
+				<button class="btn btn-info btn-lg hidden-desktop" type="button" onclick="location.href='http://davidzxc12.github.io/Web/application.html'">申請加入課程</button>
+<div role="tabpanel">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs mob-tittle hidden-desktop" role="tablist">
+    <li role="presentation" class="active"><a href="#semester" aria-controls="semester" role="tab" data-toggle="tab">學年/學期</a></li>
+    <li role="presentation"><a href="#name" aria-controls="name" role="tab" data-toggle="tab">課程名稱</a></li>
+    <li role="presentation"><a href="#teacher" aria-controls="teacher" role="tab" data-toggle="tab">授課教師</a></li>
+    <li role="presentation"><a href="#category" aria-controls="category" role="tab" data-toggle="tab">修別</a></li>
+    <li role="presentation"><a href="#num" aria-controls="num" role="tab" data-toggle="tab">學分數</a></li>
+    <li role="presentation"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">備註</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content hidden-desktop mob-content">
+    <div role="tabpanel" class="tab-pane active" id="semester">103 學年 第 2 學期</div>
+    <div role="tabpanel" class="tab-pane" id="name">Ｗeb程式設計 Web Programming</div>
+    <div role="tabpanel" class="tab-pane" id="teacher">余能豪</div>
+    <div role="tabpanel" class="tab-pane" id="category">群修</div>
+    <div role="tabpanel" class="tab-pane" id="num">3.0</div>
+    <div role="tabpanel" class="tab-pane" id="note">限學程同學方得修習。</div>
+  </div>
+
+</div>
+			</article>
+							<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="visible-desktop">
 					<div class="include">
 					<h2>學年/學期Academic Year/Semester</h2>
 					<div class="word">103 學年 第 2 學期</div></div>
@@ -40,12 +74,23 @@
 					<div class="include">
 					<h2>備註 Note</h2>
 					<div class="word"><i class="fa fa-info"></i>限學程同學方得修習。</div></div>
-				</article>
+					</div>				
+	
 				<article>
+
 					<h2>課程目標 Course objectives</h2>
 					<p>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</p>
 					<h2>課程大綱 Course Description</h2>
 					<p>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</p>
+					<h2>課程要求/評分標準 Course requirements/Grading standards</h2>
+					<p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p>
+					<h2>參考書目 Textbook & references<br><strong>（為維護智慧財產權，請務必使用正版書籍）</strong></h2>
+					<ul>
+						<li><i class="fa fa-book"></i>. Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript</li>
+						<li><i class="fa fa-book"></i> O'Reilly. Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li>
+				</ul>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-12">
 					<h2>上課進度 Class Schedule</h2>
 					<ol class="schedule">
 						<li>Course Introduction / Git </li>
@@ -67,17 +112,18 @@
 						<li>Google Analytics </li>
 						<li>Final demo</li>
 					</ol>
-					<h2>課程要求/評分標準 Course requirements/Grading standards</h2>
-					<p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p>
-					<h2>參考書目 Textbook & references<br><strong>（為維護智慧財產權，請務必使用正版書籍）</strong></h2>
-					<ul>
-						<li><i class="fa fa-book"></i>. Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript</li>
-						<li><i class="fa fa-book"></i> O'Reilly. Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li>
-				</ul>
+					</div>
+					</div>
+					
 					
 				</article>
 			</section>
 			</div>
 			</div>
+			</div>
+			 <script src="http://getbootstrap.com/2.3.2/assets/js/jquery.js"></script>
+			 <script src="./javascripts/bootstrap.min.js"></script>
+
+
 		</body>
 	</html>
