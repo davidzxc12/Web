@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/application1.css">
+		<meta charset="UTF-8">
+		<title>申請加入課程</title>
+	</head>
+	
+	<bodyx>
+		<div class="bg">
+			<div class="wrap">
+				<header id="header">
+					<ul class="nav">
+						<li><a href="http://davidzxc12.github.io/Web/course.html">HOME</a></li>
+					</ul>
+				</header>
+				<section>
+					<input class="btn" type="button" value="回到課程大綱" onclick="location.href='http://davidzxc12.github.io/Web/course.html'">
+					<h1>申請加入課程</h1>
+					<h2>Web程式設計</h2>
+					<h2 >Web Programming</h2>
+					<h5 class="blink"><strong><i class="fa fa-exclamation-triangle" style="font-size: 1.2em;"></i><em>欲修習此門課需先填寫以下資料</em></strong><br><br></h5>
+					<form>
+					<ul class="list">
+						<li class="question"><label for="name">姓名:<br></label>
+						<input type="text" id="name" required placeholder="Enter Your Name"></li>
+						<li class="question"><label for="stuid">學號:<br></label>
+						<input type="tel" id="stuid" required placeholder="Enter Your Student ID" ></li>
+						<li class="question"><label for="department">科系:<br></label>
+						<input type="text" id="department" required placeholder="Enter Your Department" ></li>
+						<li class="question"><label for="sex">性別:<br></label>
+						<input type="radio" name="sex" value="male" id="male">
+						<label class="css-label" for="male">男</label>
+						<input type="radio" name="sex" value="female" id="female">
+						<label  class="css-label" for="female">女</label></li>
+						<li class="question"><label for="date">生日:<br></label>
+						<input type="date" id="date" required placeholder="Enter Your Birth" >
+						<li class="question"><label for="addr">地址:<br></label>
+						<input type="text" id="addr" required placeholder="Enter Your Address" ></li>
+						<li class="question"><label for="phone">連絡電話:<br></label>
+						<input type="tel" id="phone" required placeholder="Enter Your Phone Number" ></li>
+						<li class="question"><label for="email">信箱:<br></label>
+						<input type="email" id="email" required placeholder="Enter Your E-mail" ></li>
+					</ul>
+				</section>
+				<footer>
+					<p>
+						<button class="submit" type="submit" >確認送出</button>
+						<button class="submit" type="reset"  >清除重填</button>
+					</p>
+					</form>
+				</footer>
+			</div>
+		</div>
+
+	</bodyx>
+</html>
